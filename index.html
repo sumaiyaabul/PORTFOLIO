@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumaiya-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;
+    700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+      }
+      .left {
+        font-size: 2rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2rem;
+      }
+      .rightSection img {
+        width: 95%;
+        margin: 5px 0;
+      }
+      .purple {
+        color: rgba(129, 59, 129, 0.809);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.5rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 76vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        width: 1px;
+        height: 93px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .img-top {
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        color: red;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: grey;
+        width: 175px;
+        font-size: 9px;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 20px 84px;
+      }
+      .text-grey {
+        color: grey;
+      }
+      .contact-page {
+        background-color: #003d5b;
+        height: 400px;
+      }
+      
+      .text {
+        text-align: left;
+        padding: 23px 122px;
+      }
+      .text1 {
+        text-align: left;
+        padding: 23px 122px;
+      }
+      .emailimg, .linkdin-img, .github-img, .phone-img {
+        width: 20px;
+        height: 20px;
+      }
+      .email-icon, .linkdin-icon, .github-icon, .phone-icon{
+         display: inline-block;
+         vertical-align: middle;
+         padding: 4px 0px 23px 122px;
+         
+      }
+      .email-text, .linkdin-text, .github-text, .phone-text{
+        margin-top: 4px;
+        display: inline-block;
+        margin: 5px;
+      }
+      .link{
+        color: white;
+      }
+      .link:hover{
+        color: purple;
+      }
+      .link1:hover{
+        color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sumaiya'sPortfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Education</a></li>
+            <li><a href="/">Project</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <!-- Hi, My name is <span class="purple">Sumaiya </span> 
+                <div>and I am a passoniate</div> -->
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="portfolio1.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Education</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="img-top" src="studentimage.jpg" alt="" />
+            <div class="vertical-title">
+              Matriculation <br />
+              (2017-2018)
+            </div>
+            <div class="vertical-desc">
+              - Vivekananda Central School,Hazaribagh
+              <br />
+              - Skills : Paintiing,Badminton,English,Science
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="studentimage.jpg" alt="" />
+            <div class="vertical-title">
+              Intermediate <br />
+              (2018-2020)
+            </div>
+            <div class="vertical-desc">
+              - Vivekananda Central School,Hazaribagh
+              <br />
+              - Skills : Mathematics,Physics,Chemistry,
+              <br />ComputerScience,English
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="img-top" src="studentimage.jpg" alt="" />
+            <div class="vertical-title">
+              B.tech <br />
+              (2020-2024)
+            </div>
+            <div class="vertical-desc">
+              - BIT Sindri,Dhanbad
+              <br />
+              - Electronics and Communication <br />
+              Engineering
+              <br />
+              - Skills : Java,HTML,CSS,JavaScript,React.js,SQL,MongoDB
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <footer class="contact-page">
+      <div class="text">
+        <h2>Sumaiya's Portfolio</h2>
+      </div>
+      <div class="text1">
+          <h4>Contact Me</h4>
+      </div>
+      <div class="email-icon">
+        <img class="emailimg" src="emailicon.png" alt="" />
+        <div class="email-text">
+          <p class="link1">sumaiyaabul@gmail.com</p>
+        </div>
+      </div>
+      <br>
+      
+      <div class="linkdin-icon">
+        <img class="linkdin-img" src="linkdinimg.png" alt="">
+        <div class="linkdin-text">
+          <a class="link" href="https://www.linkedin.com/in/sumaiyaabul/">https://www.linkedin.com/in/sumaiyaabul/</a>
+        </div>
+      </div>
+      <br>
+      <div class="github-icon">
+        <img class="github-img" src="githubimg.png" alt="">
+        <div class="github-text">
+          <a class="link" href="https://github.com/sumaiyaabul">https://github.com/sumaiyaabul</a>
+        </div>
+      </div>
+      <br>
+      <div class="phone-icon">
+        <img class="phone-img" src="phoneimg.png" alt="">
+        <div class="phone-text">
+         <p class="link1"> +91-9341623545</p>
+        </div>
+      </div>
+
+      
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Hi,My name is Sumaiya and I am a passionate Web Developer and Competitive Programmer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
